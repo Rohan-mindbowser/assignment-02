@@ -57,6 +57,7 @@ table, td, th {
     border-collapse: collapse;
     overflow: hidden;
     font-size: 20px;
+    cursor: pointer;
 }
 .table thead th{
     background: #009578;
