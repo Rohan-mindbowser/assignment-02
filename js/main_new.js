@@ -127,9 +127,9 @@ function FetchData(users, table) {
       }
     }
   }
-  console.log(user_table)
+  //console.log(user_table)
 
-  console.log(user_table_div)
+  //console.log(user_table_div)
 
   user_table_div.innerHTML = " ";
   user_table_div.appendChild(table)
@@ -227,7 +227,7 @@ const createDtailsCard = (id, users) => {
 const scrollToDetails = () => {
   let pos = document.querySelector(".full_user_details");
   let elemPos = pos.getBoundingClientRect();
-  console.log(elemPos);
+  //console.log(elemPos);
   window.scrollTo(0, elemPos.top);
 };
 
