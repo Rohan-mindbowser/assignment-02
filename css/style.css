@@ -59,6 +59,13 @@ table, td, th {
     font-size: 20px;
     cursor: pointer;
 }
+.table tr:hover{
+    background-color: #009578;
+    color: white;
+}
+.table tbody tr:nth-of-type(even):hover{
+    background: #009578;
+}
 .table thead th{
     background: #009578;
     color: white;
